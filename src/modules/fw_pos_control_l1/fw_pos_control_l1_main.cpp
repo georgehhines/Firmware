@@ -34,7 +34,7 @@
 
 /**
  * @file fw_pos_control_l1_main.c
- * Implementation of a generic position controller based on the L1 norm. Outputs a bank / roll
+ * Implementation of a generic position controller based on the length-L1 lookahead to the desired path. Outputs a bank / roll
  * angle, equivalent to a lateral motion (for copters and rovers).
  *
  * Original publication for horizontal control class:
